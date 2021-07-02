@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+{% extends 'base.html' %}
+
+{% block content %}
+  <h2 class="title mb-3">Edit Your To Do List.</h2>
+    <form method="post" action="/update/{{ todo.id }}" enctype="multipart/form-data">{% csrf_token %}
+        {{ form }}
+        <label class="lable">Subject</label>
+        <input type="text" class="baron" name="subject" id="todo.subject" maxlength="100" value="{{ todo.subject }}" required /><br>
+        <label class="lable">Task</label>
+        <textarea class="boron" name="task" id="todo.task" maxlength="5000" required>{{ todo.task }}</textarea><br><br>
+        <label class="lable">Date</label>
+        <input class="fin" name="date" id="todo.date" value="{{ todo.date }}" required /><br>
+        <input type="submit" class="btn" value="Update" />
+    </form>
+
+{% endblock %}

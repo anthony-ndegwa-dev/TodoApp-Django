@@ -1,0 +1,294 @@
+
+ 
+/*form {
+  background: url(/static/notes/images/Capture3.jpg)
+  border-radius: 17px;
+  background: linear-gradient(to right, #330, #ff9, #330);
+}*/
+
+/*.vigor {
+	width: 80%;
+}*/
+/*table {
+	color: #000;
+	background: linear-gradient(to right, #330, #330);
+	font-family: arial, sans-serif;
+	margin: 0px;
+	width: 100%;
+	overflow: hidden;
+	border-radius: 17px;
+}*/
+.theader{
+	/*background: #033;*/
+	background: linear-gradient(#fff, #013, #013, #013, #013, #013, #fff);
+}
+#logo {
+	margin: 15px;
+	float: center;
+	width: 100px;
+	height: 100px;
+}
+/*.pagination {
+	float: right;
+}
+.pagination a {
+	display: inline-block;
+	color: #000;
+	float: left;
+	padding: 8px 16px;
+	margin: 4px 4px;
+	text-decoration: none;
+	border: 1px solid #000;
+	background-color: #fff;
+}
+.pagination a.active {
+	background-color: #033;
+	color: #000;
+}
+.pagination a:hover:not(.active) {
+	background-color: #033;
+	color: #fff;
+	border: 1px solid #fff;
+}*/
+h1,h3,h2 {
+	color: #033;
+	font-weight: normal;
+}
+
+h4,h5,h6 {
+	padding: 0;
+	color: #fff;
+	font-weight: bold;
+	font-size: 18px;
+	
+}
+h3 {
+	padding-left: 80px;
+	margin: 10px 0px 15px 90px;
+}
+p {
+	color: #000;
+}
+
+td, th {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 10px;
+    color: #fff;
+}
+
+.brick{
+	background-color: #1A3333;
+	text-align: center;
+	color: white;
+	padding-bottom: 1px;
+}
+.btn {
+	background-color: #ccc;
+	color: #033;
+	box-shadow: 3px 3px 1px 1px;
+	margin-left: 0;
+}
+
+.edit_btn {
+    text-decoration: none;
+    padding: 2px 5px;
+    background: #2E8B57;
+    color: white;
+    border-radius: 3px;
+ }
+
+ .del_btn {
+    text-decoration: none;
+    padding: 2px 5px;
+    color: white;
+    border-radius: 3px;
+    background: #8000;
+}
+
+.label-input100 {
+	color: #000;
+	font-size: 19px;
+
+}
+
+.btn-primary {
+	background-color: #1A3333;
+	margin-left: 0;
+}
+/* Full-width inputs */
+.marnig {
+	width: 60%;
+  	display: inline-block;
+  	border: 1px solid #cc9;
+  	box-sizing: border-box;
+  	height: 05%;
+  	border-radius: 07px;
+  	padding: 8px 15px 8px 15px;
+	margin: 10px 0px 15px 15px;
+	box-shadow: 1px 1px 2px 1px;
+	/*color: #fff;
+	background-color: #330;*/
+}
+.fin {
+	color: #fff;
+	background-color: #013;
+	/*box-shadow: 2px 2px 1px 2px;*/
+	box-shadow: 3px 3px 3px 1px;
+}
+.peni {
+	width: 65%;
+  	display: inline-block;
+  	border: 1px solid #cc9;
+  	box-sizing: border-box;
+  	height: 30%;
+  	border-radius: 07px;
+  	padding: 8px 15px 8px 15px;
+	margin: 10px 0px 15px 15px;
+	box-shadow: 1px 1px 2px 1px;
+	color: #fff;
+	background-color: #033;
+}
+
+/*input[type=text], input[type=password] {*/
+ input { 
+  width: 60%;
+  display: inline-block;
+  border: 1px solid #cc9;
+  box-sizing: border-box;
+  height: 05%;
+  border-radius: 07px;
+  padding: 8px 15px 8px 15px;
+  margin: 10px 0px 15px 85px;
+  /*box-shadow: 1px 1px 2px 1px;*/
+  box-shadow: 2px 2px 2px 2px;
+}
+
+input[type=submit] {
+	margin: 10px 0px 10px 100px;
+	width: 80px;
+}
+input[type=date] {
+	width: 120px;
+	display: inline-block;
+    border: 1px solid #cc9;
+    box-sizing: border-box;
+    height: 05%;
+    border-radius: 07px;
+    padding: 8px 0 8px 2px;
+    margin: 10px 0px 15px 82px;
+    box-shadow: 2px 2px 2px 1px;
+}
+.shorten {
+	width: 32%;
+	display: inline-block;
+    border: 1px solid #cc9;
+    box-sizing: border-box;
+    height: 05%;
+    border-radius: 07px;
+    padding: 8px 2px 8px 2px;
+    margin: 10px 0px 15px 15px;
+    box-shadow: 1px 1px 2px 1px;
+    color: #fff;
+	background-color: #033;
+}
+.lable {
+	color: #000;
+	margin: 0 0 0 8px;
+	font-size: 18px;
+	background-color: ;
+}
+
+
+.teco{
+	background-color: #330;
+
+}
+.moja {
+	width: 40%;
+}
+textarea.teco{
+	color: #fff;
+	background-color: #033;
+	width: 100%;
+	display: inline-block;
+  	border: 1px solid #cccc99;
+  	box-sizing: border-box;
+  	border-radius: 05px;
+  	padding: 0;
+  	margin: 0;
+  	box-shadow: 2px 2px 0px 0px;
+}
+textarea {
+	width: 60%;
+	display: inline-block;
+  	border: 1px solid #cccc99;
+  	box-sizing: border-box;
+  	border-radius: 09px;
+  	padding: 8px 15px 8px 15px;
+  	margin: 10px 0px 60px 82px;
+  	box-shadow: 1px 1px 2px 1px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #5D6BA7;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: 1px solid #cc9;
+  border-radius: 05px;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 2px 1px;
+  cursor: pointer;
+  width: 60%;
+  float: center;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #1A3333;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+.content-wrap{
+	padding-bottom: 26rem;
+}
+
+section {
+	background-color: #bbb;
+	margin: 0;
+	/*margin-right: 20px;*/
+	padding: 0;
+	text-align: left;
+	width: 100%;
+	overflow: hidden;
+}
+
+article.right-side {
+	background-color: white;
+	margin-top: 20px;
+	padding: 10px 10px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.clear {
+	clear: both;
+}
+/*.wrapper {
+	min-width: 1000px;
+	position: relative;
+}*/

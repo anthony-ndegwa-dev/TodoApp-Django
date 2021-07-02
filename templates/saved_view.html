@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+{% extends 'base.html' %}
+
+{% block content %}
+<section>
+<!--<h4 class="title mb-3">To Do Lists</h4>-->
+<form method="get" action="{% url 'search_results' %}" enctype="multipart/form-data" autocomplete="off" class="vigor">
+    <input type="text" name="q" placeholder="Search... by Subject">
+</form>
+<form method="get" action="{% url 'searched_results' %}" enctype="multipart/form-data" autocomplete="off" class="vigor">
+    <input type="date" name="t">
+    <input type="submit" class="btn" value="Search" />
+</form>
+<table class="table table-striped table-bordered table-sm">
+    <thead>
+    <tr class="theader">
+        <th>Subject</th>
+        <th class="moja">Task</th>
+        <th>Date</th>
+        <th>Action</th>
+    </tr>
+    </thead>
+    <tbody>
+{% for todo in todolist %}
+    <tr>
+        <td>{{ todo.subject }}</td>
+        <td><textarea class="teco">{{ todo.task }}</textarea></td>
+        <td>{{ todo.date }}</td>
+        <td>
+            <a href="/edit/{{ todo.id }}" class="btn-success">Edit</a>
+            <a href="/delete/{{ todo.id }}" class="btn-danger">Delete</a>
+        </td>
+    </tr>
+{% endfor %}
+
+</table>
+
+{% if todolist.has_other_pages %}
+    <ul class="pagination">
+        {% if todolist.has_previous %}
+            <li><a href="?page={{ todolist.previous_page_number }}"> &laquo; </a> </li>
+        {% else %}
+            <li class="disabled"><span> &laquo; </span></li>
+        {% endif %}
+        {% for i in todolist.paginator.page_range %}
+            {% if todolist.number == i %}
+                <li class="active"><span>{{ i }} <span class="sr-only">(current)</span> </span></li>
+            {% else %}
+                <li><a href="?page={{ i }}">{{ i }}</a> </li>
+            {% endif %}
+        {% endfor %}
+        {% if todolist.has_next %}
+            <li><a href="?page={{ todolist.next_page_number }}"> &raquo; </a> </li>
+        {% else %}
+            <li class="disabled"><span> &raquo; </span></li>
+        {% endif %}
+    </ul>
+{% endif %}
+{% endblock %}
+<br>
+<br>
+</section>
+</html>

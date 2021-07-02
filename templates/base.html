@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Todo</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/style1.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/main.css">
+</head>
+
+<body>
+<header class="banner">
+    <h3>To Do List</h3>
+</header>
+    <nav class="navbar navbar-default navbar-static-top">
+        <div class="container">
+          <ul>{# Django Home Link / Admin Link / Register Link#}
+            <li><a href="{% url 'home' %}">Add To Do</a></li>
+              <li><a href="{% url 'saved' %}">To Do List</a></li>
+          </ul>
+        </div>
+    </nav>
+<section>
+    <section class="left-side">
+<!--<div class="main-wrapper">-->
+    <article class="about-section py-5">
+        <div class="content-wrap">
+        <div class="container">
+
+           <div>
+
+                {% block content %}
+
+                {% endblock %}
+
+            </div>
+
+        </div>
+    	</div>
+    </article><!--//about-section-->
+<!--</div>&lt;!&ndash;//main-wrapper&ndash;&gt;-->
+    </section>
+<section class="right-side">
+    <article class="right-side">
+		<header>
+			<h4>When To Do What.?</h4>
+		</header>
+    </article>
+<!--	<article class="right-side">-->
+<!--		<header>-->
+<!--			<h4>Select Date Below To See Task for The Day. </h4>-->
+<!--		</header>-->
+<!--    </article>-->
+    <article class="right-side">
+		<form method="get" action="{% url 'searched_date' %}" enctype="multipart/form-data" autocomplete="off" class="vigoro">
+	    	<input type="date" name="v">
+	    	<input type="submit" class="btn" value="Search" />
+		</form>
+			<table class="table table-striped table-bordered table-sm">
+			    <thead>
+			    <tr class="theader">
+			        <th>Subject</th>
+			        <th>Status</th>
+			    </tr>
+			    </thead>
+			    <tbody>
+			{% for todo in object_list %}
+			    <tr>
+			        <td>{{ todo.subject }}</td>
+			        <td><input type="checkbox" /></td>
+			    </tr>
+			{% endfor %}
+
+		        </tbody>
+	        </table>
+    </article>
+</section>
+</section>
+</body>
+</html>
