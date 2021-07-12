@@ -35,16 +35,6 @@ li a:hover {
 	color: #fff;
 }
 
-/*table {
-	border-style: solid;
-	border: 1px solid #cccc99;
-	border-collapse: collapse;
-	margin: 0;
-	background-color: #999999;
-	font-family: arial, sans-serif;
-	width: 60%;
-
-}*/
 th {
     border: 1px solid #dddddd;
     text-align: center;
@@ -64,11 +54,6 @@ select {
 nav {
 	background-color: #013;
 }
-
-/*nav li a {
-	float: right;
-	text-align: right;
-}*/
 
 .brick{
 	background-color: #013;
