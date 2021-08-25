@@ -214,7 +214,6 @@ button {
   width: 60%;
   float: center;
 }
-
 /* Add a hover effect for buttons */
 button:hover {
   opacity: 0.8;
