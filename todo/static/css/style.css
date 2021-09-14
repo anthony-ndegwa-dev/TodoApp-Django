@@ -119,15 +119,15 @@ td, th {
 }
 /*input[type=text], input[type=password] {*/
  input { 
-  width: 60%;
-  display: inline-block;
-  border: 1px solid #cc9;
-  box-sizing: border-box;
-  height: 05%;
-  border-radius: 07px;
-  padding: 8px 15px 8px 15px;
-  margin: 10px 0px 15px 85px;
-  box-shadow: 2px 2px 2px 2px;
+  	width: 60%;
+  	display: inline-block;
+  	border: 1px solid #cc9;
+  	box-sizing: border-box;
+  	height: 05%;
+  	border-radius: 07px;
+  	padding: 8px 15px 8px 15px;
+  	margin: 10px 0px 15px 85px;
+  	box-shadow: 2px 2px 2px 2px;
 }
 input[type=submit] {
 	margin: 10px 0px 10px 100px;
