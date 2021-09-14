@@ -48,10 +48,10 @@ p {
 	color: #000;
 }
 td, th {
-    border: 1px solid #ddd;
-    text-align: left;
-    padding: 10px;
-    color: #fff;
+    	border: 1px solid #ddd;
+    	text-align: left;
+    	padding: 10px;
+    	color: #fff;
 }
 .brick{
 	background-color: #1A3333;
