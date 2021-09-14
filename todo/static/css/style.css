@@ -73,11 +73,11 @@ td, th {
     	border-radius: 3px;
  }
  .del_btn {
-    text-decoration: none;
-    padding: 2px 5px;
-    color: white;
-    border-radius: 3px;
-    background: #8000;
+    	text-decoration: none;
+    	padding: 2px 5px;
+    	color: white;
+    	border-radius: 3px;
+    	background: #8000;
 }
 .label-input100 {
 	color: #000;
