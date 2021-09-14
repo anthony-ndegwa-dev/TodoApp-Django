@@ -136,13 +136,13 @@ input[type=submit] {
 input[type=date] {
 	width: 120px;
 	display: inline-block;
-    border: 1px solid #cc9;
-    box-sizing: border-box;
-    height: 05%;
-    border-radius: 07px;
-    padding: 8px 0 8px 2px;
-    margin: 10px 0px 15px 82px;
-    box-shadow: 2px 2px 2px 1px;
+    	border: 1px solid #cc9;
+    	box-sizing: border-box;
+    	height: 05%;
+    	border-radius: 07px;
+    	padding: 8px 0 8px 2px;
+    	margin: 10px 0px 15px 82px;
+    	box-shadow: 2px 2px 2px 1px;
 }
 .shorten {
 	width: 32%;
