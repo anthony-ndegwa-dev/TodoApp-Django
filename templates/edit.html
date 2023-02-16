@@ -2,7 +2,9 @@
 {% extends 'base.html' %}
 
 {% block content %}
+
   <h2 class="title mb-3">Edit Your To Do List.</h2>
+  <!-- This form edits saved list -->
     <form method="post" action="/update/{{ todo.id }}" enctype="multipart/form-data">{% csrf_token %}
         {{ form }}
         <label class="lable">Subject</label>
