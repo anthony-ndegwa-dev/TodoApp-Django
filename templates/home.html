@@ -2,7 +2,7 @@
 {% extends 'base.html' %}
 
 {% block content %}
-
+    <!-- This form adds new task -->
     <form method="post" autocomplete="off">{% csrf_token %}
         <h3>Create Your To Do List</h3>
         {{ form }}
