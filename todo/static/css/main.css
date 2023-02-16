@@ -1,32 +1,43 @@
-/*==[ FONT ]==*/
+/*//////////////////////////////////////////////////////////////////
+[ FONT ]*/
 
 /*@font-face {
   font-family: Poppins-Regular;
   src: url('../fonts/poppins/Poppins-Regular.ttf');
 }
+
 @font-face {
   font-family: Poppins-Medium;
   src: url('../fonts/poppins/Poppins-Medium.ttf');
 }
+
 @font-face {
   font-family: Poppins-Bold;
   src: url('../fonts/poppins/Poppins-Bold.ttf');
 }
+
 @font-face {
   font-family: Poppins-SemiBold;
   src: url('../fonts/poppins/Poppins-SemiBold.ttf');
 }
+
 @font-face {
   font-family: Montserrat-Bold;
   src: url('../fonts/montserrat/Montserrat-Bold.ttf');
 }
 */
 
+/*//////////////////////////////////////////////////////////////////
+[ RESTYLE TAG ]*/
+
+
+
 body, html {
 	height: 100%;
 	font-family: Poppins-Regular, sans-serif;
 }
 
+/*---------------------------------------------*/
 a {
 	font-family: Poppins-Regular;
 	font-size: 14px;
@@ -39,8 +50,9 @@ a {
   -moz-transition: all 0.4s;
 }
 
-ul li a:hover {
-	background-color: blue;
+li, a:hover {
+	background-color: #fff;
+  color: #004;
 }
 
 /*---------------------------------------------*/
@@ -187,12 +199,6 @@ iframe {
   flex-direction: row-reverse;
 
 }
-
-/*==================================================================
-[ Contact more ]*/
-
-
-
 
 /*==================================================================
 [ Form ]*/
@@ -377,6 +383,3 @@ textarea.input100 {
 .contact100-form-btn:hover {
   background-color: gray;
 }
-
-
-
