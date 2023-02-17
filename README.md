@@ -15,5 +15,5 @@ Additional Python Modules Required:
 
 Running the project:
 
-    > cd servermonitor
+    cd to the folder containing manage.py file and run this command:
     > python manage.py runserver
