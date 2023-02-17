@@ -4,14 +4,18 @@
 
 {% block content %}
 <section>
-<!--<h4 class="title mb-3">To Do Lists</h4>-->
+
+<!-- This form searches given text input -->
 <form method="get" action="{% url 'search_results' %}" enctype="multipart/form-data" autocomplete="off" class="vigor">
     <input type="text" name="q" placeholder="Search... by Subject">
 </form>
+
+<!-- This form searches given date input -->
 <form method="get" action="{% url 'searched_results' %}" enctype="multipart/form-data" autocomplete="off" class="vigor">
     <input type="date" name="t">
     <input type="submit" class="btn" value="Search" />
 </form>
+
 <table class="table table-striped table-bordered table-sm">
     <thead>
     <tr class="theader">
@@ -36,6 +40,7 @@
 
 </table>
 
+<!-- Paginate table with more than 5 records -->
 {% if todolist.has_other_pages %}
     <ul class="pagination">
         {% if todolist.has_previous %}
