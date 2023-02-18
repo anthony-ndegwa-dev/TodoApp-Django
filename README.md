@@ -4,10 +4,10 @@ This Todo app is built using Django framework. Here user can create his todo lis
 
 Technologies Used :
 
-1. Python
-2. Django
-3. Bootstrap
-4. HTML5 and CSS
+    1. Python
+    2. Django
+    3. Bootstrap
+    4. HTML5 and CSS
 
 Additional Python Modules Required:
 
