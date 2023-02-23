@@ -17,3 +17,10 @@ Running the project:
 
     cd to the folder containing manage.py file and run this command:
     > python manage.py runserver
+
+
+![alt text](https://github.com/anthony-ndegwa-dev/TodoApp-Django/tree/main/img/ToDOApp1.png)
+
+![alt text](https://github.com/anthony-ndegwa-dev/TodoApp-Django/tree/main/img/ToDOApp2.png)
+
+![alt text](https://github.com/anthony-ndegwa-dev/TodoApp-Django/tree/main/img/ToDOApp3.png)
