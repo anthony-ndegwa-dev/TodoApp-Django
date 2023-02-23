@@ -20,6 +20,7 @@ Running the project:
 
 
 ![alt text](https://github.com/anthony-ndegwa-dev/TodoApp-Django/tree/main/img/ToDOApp1.png)
+![alt text](https://github.com/anthony-ndegwa-dev/TodoApp-Django/blob/main/img/ToDOApp1.png)
 
 ![alt text](https://github.com/anthony-ndegwa-dev/TodoApp-Django/tree/main/img/ToDOApp2.png)
 
