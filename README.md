@@ -19,8 +19,13 @@ Running the project:
     > python manage.py runserver
 
 
+Main Form:
 ![alt text](https://github.com/anthony-ndegwa-dev/TodoApp-Django/blob/main/img/ToDOApp1.png)
 
+
+Your ToDos:
 ![alt text](https://github.com/anthony-ndegwa-dev/TodoApp-Django/blob/main/img/ToDOApp2.png)
 
+
+No More ToDos:
 ![alt text](https://github.com/anthony-ndegwa-dev/TodoApp-Django/blob/main/img/ToDOApp3.png)
