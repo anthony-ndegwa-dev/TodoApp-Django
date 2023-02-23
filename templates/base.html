@@ -3,19 +3,18 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Todo</title>
+    <title>Django-TodoApp</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Theme CSS -->
     <link id="theme-style" rel="stylesheet" href="/static/css/style.css">
     <link rel="stylesheet" type="text/css" href="/static/css/style1.css">
     <link rel="stylesheet" type="text/css" href="/static/css/main.css">
-
 </head>
 
 <body>
 <header class="banner">
-    <h3>To Do List</h3>
+    <h3>ToDo App</h3>
 </header>
     <nav class="navbar navbar-default navbar-static-top">
         <div class="container">
@@ -48,15 +47,9 @@
     </section>
 
 <section class="right-side">
-    <article class="right-side">
-		<header>
-			<h4>What next?</h4>
-		</header>
-    </article>
-
     <!-- Right side form -->
-
     <article class="right-side">
+        <h4>Search By Date</h4>
 		<form method="get" action="{% url 'searched_date' %}" enctype="multipart/form-data" autocomplete="off" class="vigoro">
 	    	<input type="date" name="v">
 	    	<input type="submit" class="btn" value="Search" />
@@ -79,8 +72,9 @@
 		        </tbody>
 	        </table>
     </article>
-    <!-- End of right form -->
+    <!-- End of right side -->
 </section>
 </section>
+
 </body>
 </html>
