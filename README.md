@@ -19,9 +19,8 @@ Running the project:
     > python manage.py runserver
 
 
-![alt text](https://github.com/anthony-ndegwa-dev/TodoApp-Django/tree/main/img/ToDOApp1.png)
 ![alt text](https://github.com/anthony-ndegwa-dev/TodoApp-Django/blob/main/img/ToDOApp1.png)
 
-![alt text](https://github.com/anthony-ndegwa-dev/TodoApp-Django/tree/main/img/ToDOApp2.png)
+![alt text](https://github.com/anthony-ndegwa-dev/TodoApp-Django/blob/main/img/ToDOApp2.png)
 
-![alt text](https://github.com/anthony-ndegwa-dev/TodoApp-Django/tree/main/img/ToDOApp3.png)
+![alt text](https://github.com/anthony-ndegwa-dev/TodoApp-Django/blob/main/img/ToDOApp3.png)
